@@ -1,0 +1,98 @@
+html,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+
+.menu {
+    width: 20%;
+
+    padding: 10px 20px 0px;
+}
+
+.header {
+    min-height: 150px;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: BLACK;
+    min-height: 10px;
+    padding: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+th {
+    background-color: rgb(99, 56, 240);
+    color: white;
+}
+
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info p {
+    margin-bottom: 5px;
+}
+
+#map {
+    width: 100%;
+    height: 400px;
+    margin-bottom: 20px;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+form button {
+    padding: 10px 20px;
+}
